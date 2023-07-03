@@ -7,14 +7,13 @@ span {
   white-space: nowrap;
   overflow: hidden;
   width: 0;
-  border-right: 3px solid;
   line-height: 1.5;
-  animation: type 2s steps(22) 0.75s forwards, blink 0.5s steps(1) infinite;
+  animation: type 1s steps(22) 0.75s forwards, blink 0.5s steps(1) infinite;
 }
 
 @keyframes type {
   to {
-    width: 10ch;
+    width: 12ch;
   }
 }
 
