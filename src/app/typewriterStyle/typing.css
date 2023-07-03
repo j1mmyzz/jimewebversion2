@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(13, 9, 7);
+}
+span {
+  display: inline-block;
+  padding-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  border-right: 3px solid;
+  line-height: 1.5;
+  animation: type 2s steps(22) 0.75s forwards, blink 0.5s steps(1) infinite;
+}
+
+@keyframes type {
+  to {
+    width: 10ch;
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: #000;
+  }
+}
