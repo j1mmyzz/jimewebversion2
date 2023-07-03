@@ -8,7 +8,7 @@ span {
   overflow: hidden;
   width: 0;
   line-height: 1.5;
-  animation: type 1s steps(22) 0.75s forwards, blink 0.5s steps(1) infinite;
+  animation: type 0.75s steps(22) 0.75s forwards, blink 0.5s steps(1) infinite;
 }
 
 @keyframes type {
