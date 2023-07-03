@@ -6,11 +6,11 @@ export default function Home() {
     <div className="flex h-screen justify-center items-center">
       <div className="w-fit flex flex-col items-left px-4 md:px-[18vw]">
         <span className="font-bold text-[40px]  md:text-8xl text-white ml-6">
-          Hi! I&aposm Jimmy.
+          Hi! I'm Jimmy.
         </span>
 
         <p className="text-white text-left text-xl pl-6 md:text-4xl">
-          I&aposm an aspiring SWE @ BTHS, interested in Web Dev and Competitive
+          I'm an aspiring SWE @ BTHS, interested in Web Dev and Competitive
           Programming!{" "}
         </p>
         <br />
