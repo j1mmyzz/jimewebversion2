@@ -1,6 +1,4 @@
-import { BsInstagram, BsTwitter, BsLinkedin, BsGithub } from "react-icons/bs";
-import { SiPolywork } from "react-icons/si";
-import { IoMdMail } from "react-icons/io";
+import { BsInstagram, BsLinkedin, BsGithub } from "react-icons/bs";
 
 const socials = [
   {
